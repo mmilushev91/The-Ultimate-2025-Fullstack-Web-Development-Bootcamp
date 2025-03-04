@@ -1,0 +1,12 @@
+HyperText Markup language
+Not a programming language
+100% of all website use HTML
+
+HTML is the structure behind of every website on the internet
+It is the backbone behind every website. We layer code on top of HTML but without HTML there is no website.
+
+The first thing you should learn in web development is HTML
+
+HTML VS HTML5
+
+latest verios of HTML

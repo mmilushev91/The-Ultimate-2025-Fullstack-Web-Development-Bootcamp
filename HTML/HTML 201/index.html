@@ -194,7 +194,7 @@
 
     <h3>Format code</h3>
     <pre>
-      Some    stuff    here
+      Some    stuff    here &ltb&gt This is a bold text &lt/b&gt
       Second   line   here
     </pre>
     <p>
@@ -205,6 +205,54 @@
     </p>
     <div id="bottom">
       <a href="#top">Back to Top</a>
+      &copy 2025
     </div>
+
+    <h3>Forms</h3>
+
+    <form action="somepage.html" method="GET">
+      <!-- <input type="text" value="Hello World" placeholder="Enter your name" /> -->
+      <div>
+        <input required name="password" yupe="password" value="Hello World" />
+      </div>
+      <div>
+        <textarea
+          required
+          name="address"
+          cols="30"
+          rows="10"
+          placeholder="Wow a placeholder"
+        >
+Text in here
+        White space does matter
+      </textarea
+        >
+      </div>
+      <div>
+        <button type="submit">Submit this from</button>
+      </div>
+
+      <!-- <button type="button">Submit this from</button> -->
+      <select name="selected_option" id="">
+        <option value="" disabled="disabled">Disabled</option>
+        <option value="value2">This is a value2</option>
+        <option value="value3">This is a value3</option>
+        <option value="default-is-selected" selected="selected">
+          Selected by Default
+        </option>
+      </select>
+    </form>
+
+    <h3>Embeds</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/mSnpYJsaT9g?si=BWlvw09IWxX3cxXI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
   </body>
 </html>

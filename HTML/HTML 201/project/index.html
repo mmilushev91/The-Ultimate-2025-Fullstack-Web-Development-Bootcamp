@@ -1,54 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML 201</title>
-    <!--Adding favicon - Favicons video -->
-    <link
-      rel="shortcut icon"
-      href="https://img.icons8.com/?size=96&id=EAUyKy3IwmqM&format=png"
-      type="image/x-icon"
-    />
-
-    <style>
-      .blank-td {
-        width: 60%;
+    <title>Hello, World!</title>
+    <style type="text/css" media="all">
+      .nav-link {
+        width: 5%;
+        padding: 5px;
+      }
+ 
+      
+      .article-header {
+        width: 50%;
+      }
+      
+      .container {
+        padding: 20px;
+        background-color: lightpink;
+        border-radius: 12px;
+      }
+      
+      
+      p {
+        padding: 10px;
+        background-color: lightblue ;
+        color: white;
+        font-size: 18px;
+      }
+      
+      table {
+        background-color: white;
       }
     </style>
   </head>
   <body>
-    <!-- 1. Create Page Layout Using Tables -->
-
-    <table width="100%">
+    <div class="container">
+      <a>Go to Bottom</a>
+    <table class="section" border="0" width="90%" style="margin: 50px auto; border-radius: 15px; padding: 20px">
       <thead>
         <tr>
-          <th colspan="5"><h1>HTML 201 - Marian's Project</h1></th>
+          <th  colspan="5"><h1 id="top">HTML 201: Marian's Project</h1></th>
         </tr>
-        <tr>
-          <td class="blank-td"></td>
-          <td nav-link>Home</td>
-          <td>About</td>
-          <td>Contact</td>
+        <tr class="nav">
+          <td class="nav-link">Home</td>
+          <td class="nav-link">Contact</td>
+          <td class="nav-link"></td>
           <td>Register/Login</td>
         </tr>
       </thead>
       <tbody>
-        <tr style="text-align: center">
-          <td colspan="5"><h2>Content Title</h2></td>
+        <tr>
+          <th class="section" colspan="4"><h2>Article title</h2></th>
         </tr>
         <tr>
           <td></td>
-          <td>
-            <img
-              src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fHww"
-              alt="html code"
-              width="200"
-            />
+          <td class="article-header">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.2bJ9_f9aKoGCME7ZIff-ZwHaJ4?rs=1&pid=ImgDetMain" width="200px" alt="" />
           </td>
-          <td></td>
+          <td class="article-header" colspan="2">
+            <h3>Table of Content</h3>
+            <ol>
+              <li>Section Title 1</li>
+              <li>Section Title 2</li>
+              <li>Section Title 3</li>
+            </ol>
+          </td>
+          
+        </tr>
+        
+        <tr>
+          <th class="section" colspan="4">
+            <h3>Section title</h3>
+          </th>
+        </tr>
+        
+        <tr>
+          <td colspan="4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              quis nibh rhoncus, suscipit ex quis, facilisis urna. Integer 
+              maximus mauris at aliquet placerat. Morbi sed commodo nisl, 
+              ut volutpat erat. Fusce luctus arcu nec faucibus lobortis.
+              Cras eget volutpat odio. Cras accumsan tincidunt scelerisque. 
+              Sed luctus sem vitae felis facilisis varius. In ultricies turpis 
+              porttitor ex ornare, quis venenatis elit egestas.Mauris sit amet
+              dolor ipsum. Fusce nulla erat, malesuada viverra dolor vel, pretium 
+              molestie orci.
+            </p>
+            
+            <p>
+              Etiam lacinia quam mauris, quis tristique purus
+              malesuada at. Sed velit mi, elementum id volutpat ac, pretium a turpis.
+              Praesent varius sit amet nisl suscipit consequat. Aenean nec bibendum sem,
+              aliquam efficitur urna. Donec nec purus dictum, varius tortor quis, 
+              interdum turpis. Mauris ut felis quis quam accumsan ornare feugiat at nunc.
+              Suspendisse tristique quis augue vel aliquet. Vestibulum vitae odio
+              porttitor, fermentum ex et, malesuada libero. Curabitur tincidunt, velit a
+              tempor tristique, massa sem tempus nulla, id eleifend risus metus eu metus. 
+              Curabitur hendrerit enim eget massa convallis placerat. Aliquam id ex 
+              ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aliquam porttitor lacus ac mi lacinia sagittis.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th class="section" colspan="4">
+            <h3>Section title</h3>
+          </th>
+        </tr>
+        
+        <tr>
+          <td colspan="4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              quis nibh rhoncus, suscipit ex quis, facilisis urna. Integer 
+              maximus mauris at aliquet placerat. Morbi sed commodo nisl, 
+              ut volutpat erat. Fusce luctus arcu nec faucibus lobortis.
+              Cras eget volutpat odio. Cras accumsan tincidunt scelerisque. 
+              Sed luctus sem vitae felis facilisis varius. In ultricies turpis 
+              porttitor ex ornare, quis venenatis elit egestas.Mauris sit amet
+              dolor ipsum. Fusce nulla erat, malesuada viverra dolor vel, pretium 
+              molestie orci.
+            </p>
+            
+            <p>
+              Etiam lacinia quam mauris, quis tristique purus
+              malesuada at. Sed velit mi, elementum id volutpat ac, pretium a turpis.
+              Praesent varius sit amet nisl suscipit consequat. Aenean nec bibendum sem,
+              aliquam efficitur urna. Donec nec purus dictum, varius tortor quis, 
+              interdum turpis. Mauris ut felis quis quam accumsan ornare feugiat at nunc.
+              Suspendisse tristique quis augue vel aliquet. Vestibulum vitae odio
+              porttitor, fermentum ex et, malesuada libero. Curabitur tincidunt, velit a
+              tempor tristique, massa sem tempus nulla, id eleifend risus metus eu metus. 
+              Curabitur hendrerit enim eget massa convallis placerat. Aliquam id ex 
+              ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aliquam porttitor lacus ac mi lacinia sagittis.
+            </p>
+          </td>
+        </tr>
+                <tr>
+          <th class="section" colspan="4">
+            <h3>Section title</h3>
+          </th>
+        </tr>
+        
+        <tr>
+          <td colspan="4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              quis nibh rhoncus, suscipit ex quis, facilisis urna. Integer 
+              maximus mauris at aliquet placerat. Morbi sed commodo nisl, 
+              ut volutpat erat. Fusce luctus arcu nec faucibus lobortis.
+              Cras eget volutpat odio. Cras accumsan tincidunt scelerisque. 
+              Sed luctus sem vitae felis facilisis varius. In ultricies turpis 
+              porttitor ex ornare, quis venenatis elit egestas.Mauris sit amet
+              dolor ipsum. Fusce nulla erat, malesuada viverra dolor vel, pretium 
+              molestie orci.
+            </p>
+            
+            <p>
+              Etiam lacinia quam mauris, quis tristique purus
+              malesuada at. Sed velit mi, elementum id volutpat ac, pretium a turpis.
+              Praesent varius sit amet nisl suscipit consequat. Aenean nec bibendum sem,
+              aliquam efficitur urna. Donec nec purus dictum, varius tortor quis, 
+              interdum turpis. Mauris ut felis quis quam accumsan ornare feugiat at nunc.
+              Suspendisse tristique quis augue vel aliquet. Vestibulum vitae odio
+              porttitor, fermentum ex et, malesuada libero. Curabitur tincidunt, velit a
+              tempor tristique, massa sem tempus nulla, id eleifend risus metus eu metus. 
+              Curabitur hendrerit enim eget massa convallis placerat. Aliquam id ex 
+              ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aliquam porttitor lacus ac mi lacinia sagittis.
+            </p>
+          </td>
         </tr>
       </tbody>
+      <tfoot class="section">
+
+        <tr>
+          <th colspan="4" >
+            <h4>Footer</h4>
+            </th>
+        </tr>
+      </tfoot>
     </table>
+     <a>Go to Top</a>
+    </div>
   </body>
 </html>

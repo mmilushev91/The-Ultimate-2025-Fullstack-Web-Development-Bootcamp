@@ -18,9 +18,32 @@
         background-position: center center;
         height: 300px;
       }
+
+      h1 {
+        text-align: right;
+        color: white;
+      }
+
+      div.red-border {
+        border-width: 5px;
+        border-style: dashed;
+        border-color: #f00;
+        border: 50px solid red;
+        width: 200px;
+        height: 200px;
+        /* border-radius: 50%; */
+        /* border-radius: 10px; */
+        border-top-left-radius: 5px;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 50%;
+        border-radius: 5px 50% 5px 50%;
+      }
     </style>
   </head>
   <body>
+    <h1 id="intro">My name is Marian</h1>
     <div>Stuff here</div>
+    <div class="red-border">This has a border</div>
   </body>
 </html>

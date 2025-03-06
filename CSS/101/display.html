@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div {
+        border: 1px solid red;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+      }
+
+      div.half-width {
+        width: 50%;
+        height: 500px;
+      }
+
+      #box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        background-image: url(https://plus.unsplash.com/premium_photo-1668472274328-cd239ae3586f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 0 50% 0 50%;
+        /* x y blur color */
+        box-shadow: 2px 2px 15px red;
+        box-shadow: 6px 6px 15px inset #444;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This a block element</h1>
+    with more text besides it
+    <span>This is an inline element</span>
+
+    <div>This is a block element</div>
+    <div>This is a block element</div>
+
+    <div class="half-width">This is half width</div>
+
+    <div id="box"></div>
+  </body>
+</html>

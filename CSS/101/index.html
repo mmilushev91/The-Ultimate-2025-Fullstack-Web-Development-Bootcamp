@@ -17,12 +17,10 @@
       }
 
       p {
-        background-color: darkmagenta;
+        background-color: rgb(29, 19, 16);
       }
 
-      body {
-        background-color: darkgray;
-      }
+      /* background image */
 
       /* classes */
       .blue {
@@ -31,6 +29,48 @@
 
       .uppercase {
         text-transform: uppercase;
+      }
+
+      /* id selectors */
+      #the-title {
+        text-decoration: underline;
+      }
+
+      /* group selectors */
+      h1,
+      p {
+        color: red;
+      }
+
+      p strong i {
+        color: rgb(42, 165, 124);
+        font-size: 50px;
+      }
+
+      div p {
+        color: green;
+      }
+
+      /* Link states */
+      a {
+        color: black;
+      }
+
+      a:hover {
+        color: blue;
+      }
+
+      /* click and hold */
+      a:active {
+        color: red;
+      }
+
+      a:visited {
+        color: yellow;
+      }
+
+      h2.small {
+        font-size: 3px;
       }
     </style>
   </head>
@@ -46,7 +86,7 @@
     <strong>This is bolded text</strong>
     This is normal text
 
-    <h2 class="blue uppercase">Classes</h2>
+    <h2 class="blue uppercase" id="the-title">Classes</h2>
     <div class="blue">
       Select me
       <p class="uppercase">
@@ -57,5 +97,40 @@
       </p>
     </div>
     <p>Don't select me</p>
+
+    <h2>Group Selectors</h2>
+    <div>This is a div</div>
+    <p>This is paragraph</p>
+
+    <h2>Nested selectors</h2>
+    <div>
+      <p>
+        <strong><i>Target me</i></strong>
+        culpa ducimus, deleniti delectus ipsum nulla sed animi voluptatem
+        adipisci numquam eos ea doloremque! Adipisci, dolorum magni.
+        <strong>This is a bold</strong>
+      </p>
+    </div>
+
+    <div>
+      <p>Make this green</p>
+    </div>
+    <p>This should not be green</p>
+
+    <h2>Link states</h2>
+    <p>
+      <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a>.
+      Repudiandae maxime dolore ut officia officiis voluptate! Accusamus, ea!
+      Quidem hic exercitationem maiores quod incidunt facilis quas temporibus
+      sequi qui, voluptatibus asperiores.
+    </p>
+
+    <h2>Change font-sizes</h2>
+    <h2 class="small">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsa,
+      voluptatibus expedita dolorem vero debitis voluptatem quam distinctio nisi
+      cupiditate iure libero modi explicabo optio fugiat corrupti itaque
+      aspernatur ducimus.
+    </h2>
   </body>
 </html>

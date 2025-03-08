@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Contact</title>
+    <title>Login</title>
     <style>
       .container {
         width: 99%;
@@ -9,6 +9,7 @@
         padding-bottom: 15px;
         background-color: lightpink;
         border-radius: 12px;
+        height: 100vh;
       }
       a {
         text-decoration: none;
@@ -57,53 +58,34 @@
     <div class="container">
       <br />
       <div class="nav">
-        <a href="./index.html">Home</a> <a href="./login.html">Login</a>
+        <a href="./index.html">Home</a> <a href="./contact.html">Contact</a>
         <a href="./register.html">Register</a>
       </div>
       <form action="POST">
-        <h1 style="text-align: center">Contact</h1>
-        <label for="FirstName">First Name:</label>
+        <h1 style="text-align: center">Login</h1>
+        <label for="username">Username:</label>
         <br />
         <input
           type="text"
-          name="firstName"
-          id="firstName"
+          name="username"
+          id="username"
           required
-          placeholder="First name"
+          placeholder="Username"
         />
         <br />
-        <label for="lastName">Last Name:</label>
+        <label for="password">Password</label>
         <br />
         <input
-          type="text"
-          name="lastName"
-          id="lastName"
+          type="password"
+          name="password"
+          id="password"
           required
-          placeholder="Last name"
+          placeholder="Password"
         />
         <br />
-        <label for="email">Email:</label>
+
         <br />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          required
-          placeholder="Email"
-        />
-        <br />
-        <br />
-        <textarea
-          name="message"
-          id="message"
-          cols="40"
-          rows="20"
-          required
-          placeholder="Your message"
-        ></textarea>
-        <br />
-        <br />
-        <button type="submit">Send</button>
+        <button type="submit">Log in</button>
       </form>
     </div>
   </body>

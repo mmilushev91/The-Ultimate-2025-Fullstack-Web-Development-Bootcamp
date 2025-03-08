@@ -1,0 +1,88 @@
+/* Global resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+}
+
+/* Header */
+
+.header {
+  height: 20vh;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.header-img,
+nav {
+  display: inline-block;
+}
+
+.header-img {
+  width: 40%;
+}
+
+nav {
+  width: 59%;
+  position: relative;
+  top: -15px;
+  left: 70px;
+}
+
+.header-img img {
+  width: 200px;
+}
+
+li {
+  display: inline;
+  margin-right: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Intro Section */
+
+.intro {
+  height: 100vh;
+  background-image: url("./imges/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro-container {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.intro-heading {
+  color: white;
+  width: 50%;
+  height: 200px;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+}
